@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <title>Portafolio Moshe Shabes Gittler</title>
+    <title>EPortafolio POOr</title>
 </head>
 <body>
     <header>
         <div class="contenedor">
             <nav class="menu">
-                <a href="#acerca_de">Acerca de</a>
-                <a href="#trabajos">Trabajos</a>
-                <a href="#contacto">Contacto</a>
+                <a href="#presentacion">Presentación</a>
+                <a href="#diario_aprendizaje">Diario de aprendizaje</a>
+                <a href="#documentos">Documentos</a>
+                <a href="#laboratorios">Laboratorios</a>
+                <a href="#reproducciones">Reproducciones</a>
+                <a href="#desarrollo">Desarrollo</a>
+                <a href="#reflexiones">Reflexiones</a>
             </nav>
             
             <div class="contenedor-texto">
@@ -34,50 +38,90 @@
                     <img src="./files/img/foto.JPG" width="115px" alt="Moshe Shabes">
                 </div>
                 <div class="texto">
-                    <h3 class="titulo" id="acerca_de">Acerca de</h3>
-                    <h2 class="cv">Curriculum Vitae</h2>
-                    <iframe src="https://onedrive.live.com/embed?cid=91B1C17D25068A1B&resid=91B1C17D25068A1B%213111&authkey=AAd-xMiip8sWk_o&em=2" width="100%" height="600" frameborder="0"></iframe>
-                </div>
-            </div>
-        </section>
-        <section class="trabajos" id="trabajos">
-            <div class="contenedor">
-                <h3 class="titulo">Trabajos</h3>
-                <div class="contenedor-trabajos">
-                    <div class="trabajo">
-                        <div class="thumb">
-                           <a href="https://koshereats-67779.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><img src="./files/img/trabajo/kosherEats.png" alt="Lorem Ipsum"></a>
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">The Kosher Eats</p>
-                            <p class="descripcion">Replica de Uber Eats.<br>Actualmente se tiene problemas para subir la versión solucionada de Bugs y con muchas mejoras, la cual soluciona problemas de Signin y Signup, las nuevas mejoras incluye subida de archivos, mostrar el menu y ubicación del restaurante.<br>El frontend está hecho con Reactjs, el Backend en Nodejs y la base de datos en MongoDB.</p>
-                        </div>
+                    <h3 id="presentacion" class="titulo">PRESENTACIÓN</h3>
+                    <p class="paragraph-section">Mi nombre es Moshe Shabes Gittler, estudio Ingeniería en Software y Redes y actualmente me dedico a Fullstack Developer, en experiencia en este campo empece un curso en Marzo con la cual al terminar el trabajo pude conseguir un empleo en una empresa para ser Web Fullstack Developer, ya trabajando en este campo llevo desde junio de 2019</p>
+                    <h3 class="titulo" id="diario_aprendizaje">DIARIO DE APRENDIZAJE</h3>
+                    <p class="paragraph-section">Cuando fue la primer semana que empezamos a ver los temas de Abstracción y Encapsulamiento me pude dar cuenta que esto era algo parecido de lo que veía en el Framework Javascript, ya que se declaraba una clase y dentro de estas métodos, tambien se utiliza "this", etc. Pero la verdad no entendía bien el como funcionaba, hasta que tambien empezamos a ver herencia y polimorfismo, que se empezó a utilizar el "extends" que lo que hace es pasar los metodos que la Superclase tiene a donde lo estás extendiendo. <br> Ya estando en la semana 3 lo que empezamos a ver fue sobre los diagramas UML, expresiones y Arrays, que en mi opinión personal el orden en la cual nos fue enseñado la materia no fue del todo bien, aunque se supone que por materias anteriores deberíamos de saber sobre arrays y expresiones como <i>if, switch, while, do while, etc.</i>, siento que hubiera sido mejor si se hubieran enseñado al principio de la materia y ya la segunda semana poder aplicar clases con problemas que se pueden desarrollar más con <i>arrays, condicionales, bucles.</i></p>
+                    <h3 id="documentos" class="titulo">DOCUMENTOS</h3>
+                    <a href="./files/documentos/documentos_semana_1.pdf" download="documentos_semana_1.pdf">Descargar Documento Semana 1</a>
+                    <p class="paragraph-section">Pues como puede ser un poco <i>"lógico",</i> escogí este archivo porque es el que explica sobre los principales temas que vimos en la semana 1 <i>Abstracción y Encapsulamiento</i>, fue nuestra introducción a lo que es programación orientada a objetos y como se comportaba la POO, en mi caso que yo programo y he utiliza ReactJs que en si es una clase, entonces le logre entender de una manera más fácil. <br>Las demas lecturas semanales no digo que no este bien pero en base al nombre de la materia pienso que este es la que más tiene que ver y más como yo tenía conocimientos previos, entonces no se me hizo tan relevante.</p>
+                    <a href="./files/documentos/documentos_semana_2.pdf" download="documentos_semana_2.pdf">Descargar Documento Semana 2</a>
+                    <p class="paragraph-section">Igual que el caso del punto anterior, enfocándose a la materia sentí que es la que más aplica y tiene los mismos puntos que el párrafo anterior.</p>
+                    <a href="./files/documentos/documentos_semana_3_1.pdf" download="documentos_semana_3_1.pdf">Descargar Documento Semana 3.1</a><br>
+                    <a href="./files/documentos/documentos_semana_3_2.pdf" download="documentos_semana_3_2.pdf">Descargar Documento Semana 3.2</a><br>
+                    <a href="./files/documentos/documentos_semana_3_3.pdf" download="documentos_semana_3_3.pdf">Descargar Documento Semana 3.3</a>
+                    <p class="paragraph-section">En esta semana considero que todos los documentos que se incluyeron en las lecturas semanales son importantes, ya que aunque no es algo orientado a objetos sino en realidad cualquier lenguaje de programación lo trae, entonces no puedo decir cual considero que es más importante y cual menos.</p>
+                    <a href="./files/documentos/documentos_semana_4.pdf" download="documentos_semana_4.pdf">Descargar Documento Semana 4</a>
+                    <p class="paragraph-section">En definitiva este si es más complicado decidir que documento resulto ser más relevante para mi aprendizaje, ya que por lo mismo que el punto anterior no es que está enfocado específicamente a POO, pero la que me resultó más fue la de JavaApplets, ya que para cualquier sistema no te van a pedir en una empresa que les entregues una aplicación que funcione en consola, si no van a requerir que se vea visualmente, y en este caso las JavaApplets y como está la tecnología actualmente, probablemente puedan servir para implementar en una página de internet, y como existen aplicaciones de celular que se basan y usan la infraestructura de una página web, tal vez pueda servir.</p>
+                    <h3 id="laboratorios" class="titulo">LABORATORIOS</h3>
+                    <a href="./files/documentos/laboratorio_semana_1.java" download="laboratorio_semana_1.java">Descargar Laboratorio Semana 1</a>
+                    <p class="paragraph-section">En la semana 1 lo que empezamos a ver fue sobre lo que es el clases, abstraccion y encapsulamiento, en este caso la abstracción inicia en la clase cuenta, y por la simple definición de abstracción es la representación de los enlaces que conectan a los objetos con el sistema, como los atributos o métodos y se define en los métodos los comportamientos que estos van a tener. <br>El encapsulado es el mecanismo con la cual se proteje y mantiene la integridad de la información, invocando mediante las palabras <i><b>private</b></i> y <i><b>public</b></i>
+                    <ul>
+                        <li><p class="paragraph-section"><b>private:</b> Solo pueden acceder a ellos los que se encuentran dentro de la misma clase, quiere decir que no heredan a otra clase</p></li>
+                        <li><p class="paragraph-section"><b>public:</b> A diferencia del <i>private,</i> estos si pueden heredar al ser llamadas por otra clase.</p></li>
+                    </ul>
+                    </p>
+                    <a href="./files/documentos/semana_2.java" download="laboratorio_semana_2">Descargar Laboratorio Semana 2</a>
+                    <p class="paragraph-section">Este ejercicio me gustó mucho ya que en si se empezo a ver un ejemplo simple pero como se aplicaba todo, desde los diagramas UML hasta el desarrollo de la aplicación aplicando los temas de la semana 1 pero aparte agregando otras dos, que son Herencia y Polimorfismo, aunque en el caso del ejercicio no se aplicó la herencia pero si el polimorfismo, la herencia y polimorfismo si se llegá a aplicar en el ejercicio de la semana 3, pero en está solo se aplica el polimorfismo, y esto se refiere que cuando nosotros llamamos en el método main declaramos haciendo una "llamada" al nombre de la clase, luego mencionamos el nombre de la "variable" a la que le vamos a querer asignar un valor, y luego mencionando que va a ser un <i>new {nombre de clase a la que se desea llamar}</i>, y ya después volvemos a ejecutar de nuevo este código y creamos otro "atributo" con lo mismo que tiene la clase sin afectar a la que se llamo la primera vez, y eso es a lo que se refiere el polimorfismo, la capacidad de objetos de clases distintas para comportarse ante una misma orden o solicitud.</p>
+                    <a href="./files/documentos/semana_3.java" download="laboratorio_semana_3">Descargar Laboratorio Semana 3</a>
+                    <p class="paragraph-section">En esta semana es donde ya se aplicó todo lo principal de la POO <i>(Abstacción, encapsulamiento, herencia y polimorfismo)</i> y también se siguió viendo sobre los diagramas UML aunque en este caso ya estaba desarrollado, entonces nadamas era desarollar el código, no fue algo fácil porque involucraba diferentes clases, diferentes métodos, que este herede de otro, etc. Pero una vez obtenidos los métodos en base a los diagramas UML ya fue mucho más sencillo ejecutar el método main dando como resultado en consola lo que se deseaba; aunque se pedían clases como la de <i>Hombre</i> y <i>Mujer</i>, que en si se declararon unos métodos y aunque heredaron a la clase Hulk ese método de Hombre nunca se utilizó.</p>
+                    <h3 id="reproducciones" class="titulo">REPRODUCCIONES</h3>
+                    <a href="./files/documentos/reproducciones_1.txt" download="reproducciones_1.txt"></a>
+                    <a href="./files/documentos/reproducciones_2.txt" download="reproducciones_2.txt"></a>
+                    <p class="paragraph-section">En este punto no va a ser fácil de explicar, pero cuando ya inicié esta matería ya tenía conocimiento de POO haciéndolo en JS, y fue más que nada por un curso que tome e investigación propia, entonces el ejemplo que pongo arriba fue hecho en JS dando un ejemplo simple de como funcionan las clases y los métodos. <br>En el archivo reproducciones_2 su utilizó herencia, pero igual en Javascript, pero ahí se comenta un poco como es que funciona.</p>
+                    <h3 id="desarrollo" class="titulo">DESARROLLO</h3>
+                    <p class="paragraph-section">El nivel que considero que tengo sobre Java es básica, lo que se vió en la materia, pero con respecto a JS si considero que tengo un nivel intermedio</p>
+                    <p class="paragraph-section">Escogí la de la Maquina Contadora ya que consideré que no tengo mucha experiencia en Applets y es una de las únicas que consideré que no era necesario una Applet y prefería algo mejor pero básico</p>
+                    <p class="paragraph-section">Hacer una aplicación que saque en base a dos valores las Permutaciones y las Combinaciones</p>
+                    <div class="imagenes">
+                        <img class="img" src="./files/img/Main.jpg" alt="">
+                        <img class="img" src="./files/img/Main_1.jpg" alt=""><br>
+                        <img class="img" src="./files/img/programa_1.png" alt="">
+                        <img class="img" src="./files/img/programa_2.png" alt=""><br>
+                        <p class="paragraph-section">A continuación los archivos de JAVA para la aplicación de Máquina Contadora</p>
+                        <a href="./files/documentos/Maquina_Contadora.java">Maquina Contadora</a><br>
+                        <a href="./files/documentos/Operaciones.java">Operaciones</a><br>
+                        <a href="./files/documentos/Permutacion.java">Permutacion</a><br>
+                        <a href="./files/documentos/Combinacion.java">Combinacion</a><br>
                     </div>
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <a href="https://api-meme-599a9.firebaseapp.com" target="_blank" rel="noopener noreferrer"><img src="./files/img/trabajo/apiMeme.png" alt="Lorem Ipsum"></a>
-                         </div>
-                        <div class="descripcion">
-                            <p class="nombre">Api Meme</p>
-                            <p class="descripcion">Una API la cual la gente puede hacer un CRUD de memes; puede subir un link con el meme, verlo en la página principal, modificarlo o eliminarlo.</p>
-                        </div>
-                    </div>
+                    <h3 id="reflexiones" class="titulo">REFLEXIONES</h3>
+                    <ol type="a"class="paragraph-section">
+                        <li>¿Qué aprendiste? ¿Qué te falta por aprender?</li>
+                        <ul>Aprendí como funciona la POO y como por clases y métodos puedes hacer cosas que antes de la POO resultaba muy dificl de realizar. Sobre que me falta por aprender, pues mucho, nunca es suficiente para aprender conocimiento. <br>Como dice el dicho: <i>"Entre más sabes, más ignorante eres"</i></ul>
+                        <li>¿Cómo aplicarás lo aprendido en tu vida profesional?</li>
+                        <ul>De hecho ya lo llevo aplicando desde que entré a un curso de JS y es necesario saber POO.</ul>
+                        <li>¿Cómo fue tu proceso personal de aprendizaje?</li>
+                        <ul>Si algo no se, lo investigo, si no encuentro solución, pregunto; la ventaja de investigar por cuenta propia fue de que por el hecho de investigar, normalmente para entender un termino que explican tienes que invesitgar otra cosa, entonces ya mataste dos pájaros de un tiro.</ul>
+                        <li>¿Qué aprendiste de tu profesor?</li>
+                        <ul>Mucho, el primer profesor que me gusta tomar en materias de carrera en línea, y en sus sesiones cuando explica se ve que conoce mucho del tema.</ul>
+                        <li>¿Qué aprendiste de las actividades?</li>
+                        <ul>A entender que es lo que abarca lo básico de POO</ul>
+                        <li>¿Qué aprendiste de los contenidos y recursos del curso?</li>
+                        <ul>Igual que hace dos preguntas, mucho, los materiales dados por el profesor se entienden bien sin ningún problema de lectura</ul>
+                        <li>¿Qué aprendiste de tus colegas?</li>
+                        <ul>Sinceramente nada.</ul>
+                        <li>Qué aprendiste de ti mismo?</li>
+                        <ul>Pues como dije anteriormente, antes de tomar esta materia ya había llevado POO en JS, entonces al ver acá como es no resulto tan dificil ya sabiendo de que se trada.</ul>
+                        <li>¿Cómo aprovechaste los contenidos y recursos ofrecidos por el profesor? ¿Por qué?</li>
+                        <ul>Estudiandolos y tomando los consejos del profesor</ul>
+                        <li>¿Cómo aprovechaste la retroalimentación dada por el profesor? ¿Por qué?</li>
+                        <ul>Muy bien, el hecho de retroalimetar no significa "regañar" o que alguien lo hizo mal, sino nadamas consejos para hacerlos la próxima vez mejor.</ul>
+                        <li>¿Cómo aprovechaste los canales de comunicación con el profesor? ¿Por qué?</li>
+                        <ul>Los aproveché de la mejor manera posible, a parte de dar sus Podcats, cada semana se dedica al alumno a explicar muy bien el tema y de una manera que se siente bien tomar clases.</ul>
+                        <li>¿Cómo aprovechaste las actividades de aprendizaje? ¿Por qué?</li>
+                        <ul>Al máximo, te proponía retos interesentas que hasta daba gusto realizarlos</ul>
+                        <li>¿Cómo aprovechaste la comunicación con tus colegas? ¿Por qué?</li>
+                        <ul>Desgraciadamente no la aproveche por problemas de tiempo libre.</ul>
+                        <li>¿Cómo mejoraría tu proceso de aprendizaje?</li>
+                        <ul>A mi se me hizo bien</ul>
+                        <li>¿Cuál es tu opinión acerca del curso?</li>
+                        <ul>Con este profesor, muy bueno</ul>
+                    </ol>
                 </div>
             </div>
         </section>
     </section>
     <footer>
-        <section class="contacto" id="contacto">
-            <div class="contenedor">
-                <h3 class="titulo">Contacto (Por el momento no funciona)</h3>
-                <form action="" class="formulario">
-                    <input type="text" placeholder="Nombre" name="nombre" required disabled>
-                    <input type="email" placeholder="Correo" name="correo" required disabled>
-                    <textarea name="mensaje" placeholder="Mensaje:" disabled></textarea>
-                    <input class="boton" type="submit" value="Enviar" disabled>
-                </form>
-            </div>
-        </section>
         <section class="redes-sociales">
             <div class="contenedor">
                 <a href="https://github.com/moshab97" class="github" target="_blank"><i class="fa fa-github"></i></a>
@@ -86,6 +130,7 @@
                 <!-- <a href="https://www.youtube.com/channel/UCz2zs8_FbAtIcQhlYBLR8TQ" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> -->
                 <a href="https://www.instagram.com/moshe.naftali21/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
             </div>
+            <p style="text-align: center; display: inline-block; width: 100%; color: #fff;">&#9400; 2019 - Moshe Shabes</p>
         </section>
     </footer>
 </body>

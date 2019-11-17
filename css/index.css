@@ -127,10 +127,6 @@ header .contenedor-texto .texto .profesion{
     padding: 60px 0;
 }
 
-.main .trabajos .contenedor{
-/*    overflow: hidden;*/
-}
-
 .main .trabajos .titulo{
     font-size: 34px;
     line-height: 34px;
@@ -289,4 +285,47 @@ footer .redes-sociales .github:hover{background: #666666;}
         flex-wrap: wrap;
         padding: 20px 0;
     }
+}
+
+
+
+
+
+.paragraph-section{
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.main .acerca-de .texto {
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+li {
+    text-align: left;
+}
+
+.main .acerca-de .texto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: #dd820d;
+    text-align: center;
+    padding-top: 25px;
 }
